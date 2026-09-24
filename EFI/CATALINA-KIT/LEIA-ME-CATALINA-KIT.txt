@@ -1,0 +1,41 @@
+CATALINA-KIT - CATALOGO VISUAL INSPIRADO EM macOS CATALINA
+=========================================================
+Recovery 12.5.1 adaptado para experiencia Catalina
+Gerado em 2026-09-19
+
+Este kit e APENAS um catalogo de recursos visuais para uso OPCIONAL
+e FUTURO no HACKINTOSH-alvo (sistema macOS Catalina instalado).
+NENHUM recurso foi aplicado dentro do Recovery, pois isso invalidaria
+a assinatura de codigo (SIP) das aplicacoes. Veja PROJETO-CATALINA.md.
+
+CONTEUDO
+--------
+  Wallpaper-Catalina-4K.png           Fundo 3840x2160 (16:9), paleta
+                                      Catala (indigo/navy + faixa de luz
+                                      diagonal). Arte original gerada p/
+                                      este projeto (nao copiada).
+  Wallpaper-Catalina-1600x900.png     Versao 1600x900 p/ preview/uso leve.
+  AppleRecv.icns                      Icone "Recovery" (uso: pasta de boot).
+  HardDrive.icns                      Icone de disco interno.
+  ExtHardDrive.icns                   Icone de disco externo.
+  Shell.icns                          Icone de UEFI Shell (tools).
+  Tool.icns                           Icone de ferramenta do picker.
+  Windows.icns                        Icone de outro SO (dualboot).
+  Selected.icns                       Selo de selecao do picker.
+
+USO NO FUTURO (no sistema Catalina instalado, FORA do Recovery)
+----------------------------------------------------------------
+- Wallpaper: System Preferences > Desktop & Screen Saver > escolha o PNG.
+- Icones do picker OpenCore: ja instalados em
+  EFI/OC/Resources/Image/Catalina/ (usados pelo PickerVariant=Catalina).
+- Os .icns de aplicativos (Terminal, Disk Utility, Safari) NAO devem ser
+  trocados dentro do Recovery (assinatura). Aplicar apenas em sistemas
+  nao-assinados/SIP desativado, com backup previo, sob responsabilidade
+  do usuario.
+
+ETAPA PENDENTE (registro)
+-------------------------
+Picker grafico completo no boot (wallpaper de fundo em tela cheia,
+via OpenCanopy/External) fica PENDENTE ate que seja identificada a
+versao exata do OpenCore local desta EFI (build sem tag no binario).
+Ver PROJETO-CATALINA.md status ETAPA 7c.
