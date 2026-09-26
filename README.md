@@ -33,6 +33,7 @@
 ### Funções
 * iCloud
 * Ethernet
+* Facetime
 
 ### Versões do macOS
 * Big Sur
