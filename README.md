@@ -27,7 +27,7 @@
 * **Principais kexts:** Lilu, WhateverGreen, VirtualSMC, SMCProcessor, SMCSuperIO, USBToolBox, UTBMap, RestrictEvents e NullEthernet
 * **CpuTscSync:** desativado
 * **AppleCpuPmCfgLock:** ativado
-* **GPU:** aceleração gráfica configurada por meio do WhateverGreen
+* **GPU:** aceleração gráfica configurada por meio do WhateverGreen (Na verdade, ele somente reconhece e arruma resolução etc, mas a aceelração está sem funcionar sem flash)
 
 ## O que funciona?
 ### Funções
